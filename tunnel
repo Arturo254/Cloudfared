@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+
+
+
+echo -e "\e[1;34m
+
+▄▄▄█████▓ █    ██  ███▄    █  ███▄    █ ▓█████  ██▓    
+▓  ██▒ ▓▒ ██  ▓██▒ ██ ▀█   █  ██ ▀█   █ ▓█   ▀ ▓██▒    
+▒ ▓██░ ▒░▓██  ▒██░▓██  ▀█ ██▒▓██  ▀█ ██▒▒███   ▒██░    
+░ ▓██▓ ░ ▓▓█  ░██░▓██▒  ▐▌██▒▓██▒  ▐▌██▒▒▓█  ▄ ▒██░    
+  ▒██▒ ░ ▒▒█████▓ ▒██░   ▓██░▒██░   ▓██░░▒████▒░██████▒
+  ▒ ░░   ░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░░ ▒░▓  ░
+    ░    ░░▒░ ░ ░ ░ ░░   ░ ▒░░ ░░   ░ ▒░ ░ ░  ░░ ░ ▒  ░
+  ░       ░░░ ░ ░    ░   ░ ░    ░   ░ ░    ░     ░ ░   
+            ░              ░          ░    ░  ░    ░  ░
+                  
+            CREATED BY ARTURO
+"
+
+
+
+
+
+# Pedir al usuario que introduzca el puerto que desean utilizar
+echo "Introduce el puerto que deseas utilizar:"
+read PUERTO
+
+# Ejecutar el comando cloudflared tunnel con el puerto especificado
+cloudflared tunnel --url 127.0.0.1:$PUERTO
