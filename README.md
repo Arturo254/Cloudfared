@@ -18,6 +18,12 @@ chmod 777 *
 bash install.sh
 ```
 
+# USO :
 
+```
+tunnel 
+
+`` 
+Después te pedirá el puerto, solo indicas el que desees
 
 
