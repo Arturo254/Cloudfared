@@ -33,4 +33,6 @@ Después te pedirá el puerto, solo indicas el que desees
 
 
 
-<img src="https://i.ibb.co/rGf1nZK/arctic-code-vault-contributor-default.png" alt="xd" style="width: 50px;">
+ 
+
+
