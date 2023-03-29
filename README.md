@@ -23,7 +23,11 @@ bash install.sh
 ```
 tunnel 
 
-`` 
+```
 Después te pedirá el puerto, solo indicas el que desees
 
+# IMAGEN 
+
+
+<img src="https://i.ibb.co/KyDD57K/Picsart-23-03-29-09-43-09-499.png" alt="Picsart-23-03-29-09-43-09-499" border="0">
 
