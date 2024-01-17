@@ -36,7 +36,7 @@ tunnel
 ## WINDOWS:
 
 ```
-cloudflared tunnel --url [ 127.0.0.1:4000]
+cloudflared tunnel --url 127.0.0.1:4000
 ```
 >[!TIP]
 >REEMPLAZA 127.0.0.1:4000 POR TU IP Y TU PUERTO
